@@ -1,15 +1,23 @@
 body #ms_button{
     border-radius: 999px;
     border: none;
-    padding: 0 13px;
+    font-size: 14px;
 }
 
 .ms_bckgrey{
     background-color:#363636 ;
 }
 
+.ms_bckorange{
+    background-color: #CD3D0F;
+}
+
 header{
     background-color: black;
+}
+
+body header nav{
+    position: fixed;
 }
 
 .sony-logo{
@@ -28,4 +36,18 @@ header{
 .lens{
     width: 18px;
     
+}
+
+#jumbo .container-fluid{
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+#jumbo .container-fluid{
+    background-image: url("img/jumbo-bg.png");
+}
+
+.returnal-logo{
+    width: 200px;
 }
