@@ -1,3 +1,8 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
 body #ms_button{
     border-radius: 999px;
     border: none;
@@ -17,7 +22,7 @@ header{
 }
 
 body header nav{
-    position: fixed;
+    position: sticky;
 }
 
 .sony-logo{
@@ -38,7 +43,10 @@ body header nav{
     
 }
 
+/*SECTION1*/
+
 #jumbo .container-fluid{
+    margin-top: 106px;
     min-height: 500px;
     background-position: center;
     background-size: cover;
@@ -50,4 +58,30 @@ body header nav{
 
 .returnal-logo{
     width: 200px;
+}
+
+/*SECTION2*/
+
+#games-cards{
+    
+}
+
+ body main #games-cards .row .col-2{
+    border-radius: 20px;
+}
+
+body main #games-cards .row div img{
+    border-radius: 10px;
+    
+}
+
+/*SECTION3*/
+
+#play-5 .container p:first-child{
+    color: #6DAEE3;
+    font-size: 13px;
+}
+
+#play-5 .container p:last-child{
+    color: #727272;
 }
