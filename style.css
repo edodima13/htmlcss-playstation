@@ -1,0 +1,31 @@
+body #ms_button{
+    border-radius: 999px;
+    border: none;
+    padding: 0 13px;
+}
+
+.ms_bckgrey{
+    background-color:#363636 ;
+}
+
+header{
+    background-color: black;
+}
+
+.sony-logo{
+    max-width: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 13px;
+}
+
+#my_play{
+    font-size: 13px;
+}
+
+.lens{
+    width: 18px;
+    
+}
