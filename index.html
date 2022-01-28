@@ -10,11 +10,11 @@
 </head>
 <body>
     <!--HEADER-->
-    <header class="fixed-top">
-        <div class="col-12 d-flex justify-content-end px-2 py-2 bg-black">
+    <header>
+        <div class="col-12 d-flex justify-content-end px-2 py-2 bg-dark">
             <img class="sony-logo" src="img/sony_logo.svg" alt="">
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,7 +101,7 @@
                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                       </li>
-                    <button id="ms_button" class="ms_bckgrey fw-bold px-2"><a class="text-decoration-none text-white" href="">Accedi</a></button>
+                    <button class="ms_bckgrey fw-bold btn rounded-pill"><a class="text-decoration-none text-white" href="">Accedi</a></button>
                   <img class="lens ms-2" src="img/lens.svg" alt="">
                 </form>
               </div>
@@ -120,23 +120,35 @@
                     <p class="pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Quidem, illo tempore deleniti numquam eius corrupti alias.
                     Hic deserunt eveniet sunt quasi fugiat atque maiores.</p>
-                    <button id="ms_button" class="ms_bckorange fw-bold py-1 px-2"><a class="text-decoration-none text-white" href="">Acquista ora</a></button>
+                    <button class="ms_bckorange fw-bold btn rounded-pill"><a class="text-decoration-none text-white" href="">Acquista ora</a></button>
                 </div>
             </div>
         </section>
 
         <!--SECTION2-->
-        <section id="games-cards">
-            <div class="">
-                <div class="row container-lg mx-auto">
-                    <div class="col-sm-6 col-md-4 col-lg-2 "><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col-sm-6 col-md-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-                    <div class="col-sm-6 col-md-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col-sm-6 col-md-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-                    <div class="col-sm-6 col-md-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                    <div class="col-sm-6 col-md-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+        <section id="games-cards" class="py-5">
+                <div class="col-11 mx-auto">
+                    <div class="row gy-3">
+                        <div class="col-6 col-sm-4 col-lg-2">
+                          <img id="ms_cards" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                          <img id="ms_cards" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                          <img id="ms_cards" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                          <img id="ms_cards" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                          <img id="ms_cards" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2"
+                        ><img id="ms_cards" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                      </div>
+                    </div>
                 </div>
-            </div>
         </section>
 
         <!--SECTION3-->
@@ -146,16 +158,21 @@
                 <h2 class="pb-4">Ecco la PlayStation 5</h2>
                 <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
             </div>
-            <div class="row container-lg">
-                <div class="col-sm-12 col-lg-6">
-                    <h2 class="pb-3">Rompi il cerchio</h2>
-                    <p class="pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Quidem, illo tempore deleniti numquam eius corrupti alias.
-                    Hic deserunt eveniet sunt quasi fugiat atque maiores.</p>
-                    <button id="ms_button" class="ms_bckorange fw-bold py-1 px-2"><a class="text-decoration-none text-white" href="">Acquista ora</a></button>
+            <div class="col-11 mx-auto">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-5 align-self-center">
+                        <h2 class="pb-3">Console PlayStation5</h2>
+                        <p class="pb-3">
+                            Sperimenta la nuova azione di incredibili giochi PlayStation
+                        </p>
+                        <button class="ms_blue fw-bold btn rounded-pill"><a class="text-decoration-none text-white" href="">Acquista ora</a></button>
+                    </div>
+                    <div class="col-sm-12 col-md-7 play-5">
+                        <img class="" src="img/playstation-5-thumb.png" alt="">
+                    </div>
                 </div>
-                
             </div>
+            
         </section>
     </main>
     
