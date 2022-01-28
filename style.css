@@ -12,7 +12,7 @@ img{
 }
 
 .ms_blue{
-    background-color: #6DAEE3;
+    background-color: #2D64E6;
 }
 
 header{
@@ -69,10 +69,6 @@ body main #games-cards .row div img{
     column-gap: 20px;   
 }
 
-#ms_cards{
-    border: 4px solid trasparent;
-}
-
 #ms_cards:hover{
     border: solid blue;
     box-shadow: inset 0 0 2px white;
@@ -96,11 +92,17 @@ body main #games-cards .row div img{
     color: #727272;
 }
 
-.play-5{
+#console{
+    padding-top: 130px;
 }
 
-.play-5 img{
+#new-play5{
+    max-height: 700px;
     object-fit: cover;
+}
+
+#gadget-products{
+    padding-bottom: 50px;
 }
 
 #gadget-products img::after{
@@ -110,7 +112,7 @@ body main #games-cards .row div img{
     z-index: 1;
 }
 
-#gadget-products .col-2:hover{
+#gadget-products .col-sm-4:hover{
     border-bottom: 1px solid #6DAEE3;
 }
 
@@ -120,17 +122,30 @@ body main #games-cards .row div img{
 
 #gadget-ps5 img{
     padding-bottom: 10px;
-    width: 100px;
 }
 
 
-/*SECTION5*/
+
+
+/*SECTION 5*/
 
 #new-entry{
     background-color: #1F1F1F;
 }
 
 #games-cards{
-    max-height: 155px;
+    font-size: 13px;
+}
+
+#games-card{
+    height: 155px;
     border-radius: 15px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+/*MEDIA*/
+
+@media all and (max-widht: 767) {
+    
 }
