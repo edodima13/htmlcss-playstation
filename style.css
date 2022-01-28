@@ -49,8 +49,12 @@ body header nav{
     background-size: cover;
 }
 
-#jumbo .container-fluid{
+#jumbo #returnal-bkg{
     background-image: url("img/jumbo-bg.png");
+}
+
+#jumbo #takes-two-bkg{
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
 }
 
 .returnal-logo{
@@ -93,9 +97,40 @@ body main #games-cards .row div img{
 }
 
 .play-5{
-    max-height: 400px;
 }
 
 .play-5 img{
     object-fit: cover;
+}
+
+#gadget-products img::after{
+    display: block;
+    content: "ciao";
+    color: red;
+    z-index: 1;
+}
+
+#gadget-products .col-2:hover{
+    border-bottom: 1px solid #6DAEE3;
+}
+
+#gadget-ps5:hover{
+    transform: translateY(-20px);
+}
+
+#gadget-ps5 img{
+    padding-bottom: 10px;
+    width: 100px;
+}
+
+
+/*SECTION5*/
+
+#new-entry{
+    background-color: #1F1F1F;
+}
+
+#games-cards{
+    max-height: 155px;
+    border-radius: 15px;
 }
