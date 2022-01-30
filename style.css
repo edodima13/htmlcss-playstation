@@ -12,8 +12,28 @@ img{
     background-color: #CD3D0F;
 }
 
-.ms_blue{
+.ms_bckblue{
     background-color: #2D64E6;
+}
+
+.ms_bcklight-grey{
+    background-color: #D9DADC;
+}
+
+.ms_bckdarkblue{
+    background-color: #161C3B;
+}
+
+.ms_jumbo-bcklight-grey{
+    background-color: #BEBCBB;
+}
+
+.ms_darkblue{
+    color: #161C3B;
+}
+
+.ms_blue{
+    color: #2D64E6;
 }
 
 header{
@@ -150,11 +170,8 @@ body main #games-cards .row div img{
     max-width: 300px;
 }
 
-/*SECTION 7*/
+/*SECTION 7-9*/
 
-#jumbo-plus{
-    background-color: #BEBCBB;
-}
 
 #jumbo-plus .play-plus__logo img{
     width: 250px;
@@ -166,6 +183,8 @@ body main #games-cards .row div img{
     min-height: 400px;
     object-fit: cover;
 }
+
+/**/
 
 /*MEDIA*/
 
