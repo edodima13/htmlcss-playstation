@@ -152,12 +152,19 @@ body main #games-cards .row div img{
 
 /*SECTION 7*/
 
-#play-plus{
+#jumbo-plus{
     background-color: #BEBCBB;
 }
 
-#play-plus .play-plus__logo img{
+#jumbo-plus .play-plus__logo img{
     width: 250px;
+}
+
+/*SECTION 8*/
+
+#play-store .row img{
+    min-height: 400px;
+    object-fit: cover;
 }
 
 /*MEDIA*/
