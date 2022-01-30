@@ -144,10 +144,20 @@ body main #games-cards .row div img{
     padding-bottom: 10px;
 }
 
-/*SECTION6*/
+/*SECTION 6*/
 
 #play-4 .play-4__img{
     max-width: 300px;
+}
+
+/*SECTION 7*/
+
+#play-plus{
+    background-color: #BEBCBB;
+}
+
+#play-plus .play-plus__logo img{
+    width: 250px;
 }
 
 /*MEDIA*/
