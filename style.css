@@ -197,12 +197,16 @@ body main #games-cards .row div img{
 /*FOOTER*/
 footer .logo{
     max-width: 70px;
-    max-height: 70px;
+    max-height: 55px;
     filter: brightness(0.1) invert(1);
 }
 
-footer .region{
-    font-size: 12px;
+footer li,p{
+    font-size: 13px;
+}
+
+footer .sony-logo{
+    max-height: 50px;
 }
 
 /*MEDIA*/
