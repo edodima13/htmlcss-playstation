@@ -4,6 +4,15 @@ img{
     object-fit: cover;
 }
 
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 .ms_bckgrey{
     background-color:#363636 ;
 }
@@ -113,10 +122,6 @@ body main #games-cards .row div img{
     color: #727272;
 }
 
-#console{
-    padding-top: 130px;
-}
-
 #new-play5{
     max-height: 700px;
 }
@@ -187,6 +192,17 @@ body main #games-cards .row div img{
 /*SECTION 10*/
 
 #social-media img{
+}
+
+/*FOOTER*/
+footer .logo{
+    max-width: 70px;
+    max-height: 70px;
+    filter: brightness(0.1) invert(1);
+}
+
+footer .region{
+    font-size: 12px;
 }
 
 /*MEDIA*/
